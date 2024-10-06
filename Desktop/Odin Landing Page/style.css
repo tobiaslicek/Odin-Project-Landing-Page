@@ -58,13 +58,10 @@ header {
   list-style: none;
   font-size: 18px;
   color: #e6e7eb;
+  cursor: pointer;
 }
 
 .hero {
-  /* position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   margin-top: 150px;
   display: flex;
   align-items: center;
@@ -99,6 +96,7 @@ header {
   padding: 7px 15px;
   width: 100px;
   border: none;
+  cursor: pointer;
 }
 
 .hero__img {
@@ -115,7 +113,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 50px;
-    margin-bottom: 125px;
+  margin-bottom: 125px;
 }
 
 .photo__section {
@@ -137,8 +135,61 @@ header {
   text-align: center;
 }
 
-blockquote {
+.quote {
   background-color: #e5e7eb;
-font-size: 36px;
+  padding: 120px 400px;
+}
 
+blockquote {
+  font-size: 32px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1f2937;
+  line-height: 1.4;
+  margin-bottom: 7px;
+}
+
+.quote__author {
+  color: #1f2937;
+  font-weight: 700;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.blue__box {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  width: 600px;
+  border-radius: 8px;
+  margin: 75px auto;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first__paragraph {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.second__paragraph {
+  color: #e5e7eb;
+}
+
+.blue__box--signup {
+  color: #e5e7eb;
+  background-color: transparent;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+footer {
+  color: #e5e7eb;
+  background-color: #1f2937;
+  text-align: center;
+  padding: 30px;
 }
